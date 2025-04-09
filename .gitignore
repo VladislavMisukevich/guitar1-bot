@@ -3,3 +3,4 @@ lessons/
 *.pdf
 __pycache__/
 .env
+git add requirements.txt

@@ -4,6 +4,8 @@ import os
 
 TOKEN = '7292986121:AAEcpsXiKfN7qWXAANwMyrZb7BRB5C1L7DA'
 bot = telebot.TeleBot(TOKEN)
+bot.remove_webhook()
+bot.polling()
 
 # Уроки и табы
 lessons = [

@@ -1,0 +1,5 @@
+lessons/
+*.mp4
+*.pdf
+__pycache__/
+.env
